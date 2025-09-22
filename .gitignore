@@ -1,0 +1,77 @@
+# Qt/qmake build products
+Makefile
+Makefile.*
+*.make
+*.mak
+*.idb
+*.ilk
+*.pdb
+*.exp
+*.manifest
+*.obj
+*.o
+*.lo
+*.la
+*.a
+*.lib
+*.dll
+*.exe
+*.so
+*.dylib
+*.qmake.cache
+*.qmake.stash
+*.qmake.conf
+configure.cache
+config.status
+config.tests/
+*.pro.user*
+*.qm
+
+# Generated Qt sources
+moc_*.cpp
+moc_*.cxx
+moc_*.h
+*.moc
+qrc_*.cpp
+qrc_*.c
+ui_*.h
+object_script.*
+
+# Top-level build artefacts
+/Makefile
+/qmake.cache
+/tmp/
+/**/tmp/
+/network_build.log
+
+# Tool outputs
+/bin/*.exe
+/bin/*.dll
+/bin/*.pdb
+/bin/*.ilk
+
+# Libraries - keep fonts and README
+/lib/*
+!lib/README
+!lib/fonts/
+!lib/fonts/**
+
+# Plugins produced by the build
+/plugins/**/*.dll
+/plugins/**/*.a
+/plugins/**/*.lib
+/plugins/**/*.prl
+/plugins/**/*.pdb
+/plugins/**/*.exp
+
+# Staged QML imports - keep README
+/imports/*
+!imports/README.md
+
+# Common IDE cruft
+*.orig
+*.rej
+*.swp
+*~
+.DS_Store
+Thumbs.db
